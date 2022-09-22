@@ -24,4 +24,7 @@
 -- SELECT * FROM generos WHERE id = 2;
 
 -- funções agregadas
-SELECT SUM(valor) FROM filmes;
+-- SELECT SUM(valor) AS Soma FROM filmes;
+-- SELECT MAX(valor) FROM filmes;
+
+SELECT * FROM filmes WHERE valor IN (SELECT MAX (valor) FROM filmes);
