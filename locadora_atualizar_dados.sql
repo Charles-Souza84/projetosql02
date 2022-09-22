@@ -1,0 +1,3 @@
+-- atualizando dados
+-- SELECT * FROM clientes;
+-- UPDATE clientes SET endereco = 'Rua Pires Barbosa,578' WHERE id = 2;
